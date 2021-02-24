@@ -14,17 +14,50 @@
   <main>
     <div class="container">
       <h1 class="main-title text-center">Weighty! Converter</h1>
-      <div class="row mx-auto">
-        <input type="number" class="md-form form-control w-80" id="lbsInput" placeholder="Put the starting weight here in pounds...">
+      <form class="mb-4">
+        <div class="row mx-auto">
+          <input type="number" class="md-form form-control w-80" id="lbsInput" placeholder="Put the starting weight here in pounds...">
+        </div>
+      </form>
+
+      <div id="output">
+        <div class="card text-white bg-primary mb-2">
+          <div class="card-block">
+            <h4>Ounce:</h4>
+            <div id="ounceOutput"></div>
+          </div>
+        </div>
+
+        <div class="card text-white bg-secondary mb-2">
+          <div class="card-block">
+            <h4>Stone:</h4>
+            <div id="stoneOutput"></div>
+          </div>
+        </div>
+
+        <div class="card text-white bg-info mb-2">
+          <div class="card-block">
+            <h4>Kilogram:</h4>
+            <div id="kilogramsOutput"></div>
+          </div>
+        </div>
+
+        <div class="card text-white bg-success mb-2">
+          <div class="card-block">
+            <h4>Gram:</h4>
+            <div id="grams"></div>
+          </div>
+        </div>
       </div>
-      <div class="row">
+      
+      <!-- <div class="row container mb-2">
         <div class="col">Ounce</div>
         <div class="col">Stone</div>
       </div>
-      <div class="row">
+      <div class="row container">
         <div class="col">Kilogram</div>
         <div class="col">Gram</div>
-      </div>
+      </div> -->
     </div>
   </main>
   
