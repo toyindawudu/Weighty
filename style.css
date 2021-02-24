@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-title {
+  margin-top: 50px;
+}
+
+.col{
+  border: 2px red solid;
+}
+
